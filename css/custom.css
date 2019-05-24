@@ -1,0 +1,91 @@
+/* Add here all your css styles (customizations) */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.js-carousel .js-slide {
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url(../img-temp/1920x500/img3.jpg);
+  min-height: 350px;
+  opacity: 0.9;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: relative;
+  display: inline-block;
+  top: 120px;
+}
+
+/* 
+a:hover{
+    display: block;
+    height: .25rem;
+    width: 25%;
+    margin: 0;
+    background: tomato;
+    border: none;
+    transition: .3s ease-in-out;
+    margin-left: 25%;
+}
+*/
+
+.underline {
+  display: block;
+  height: 2px;
+  width: 50px;
+  margin: 10px auto;
+  background-color: dimgray;
+  /*
+    transform: scaleX(1);
+    transition: transform .5s ease-out;
+    */
+}
+
+#dmtest {
+  min-height: 320px;
+}
+
+.caseStudyHeader {
+  position: relative;
+  min-height: 500px;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.caseStudyHeader.ELL {
+  background-image: url(../img-temp/1920x500/ELLheader.jpg);
+}
+
+.caseStudyHeader.WWF {
+  background-image: url(../img-temp/1920x500/WWFheader.jpg);
+}
+
+.typewrite {
+  color: floralwhite;
+}
+
+#casestudy {
+  width: 100vw;
+  margin: 0px;
+}
